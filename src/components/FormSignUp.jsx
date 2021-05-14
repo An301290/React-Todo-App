@@ -10,7 +10,7 @@ const {handleChange, values, handleSubmit, errors} = useForm(submitForm,validate
   return (
     <div className="form-content-right">
       <form className="form" onSubmit={handleSubmit}>
-        <h1>Welcome to click-art-print</h1>
+        <h1>Sign Up for out Todo List App</h1>
         <div className="form-inputs">
           <label htmlFor="username" className="form-label">
               Username:

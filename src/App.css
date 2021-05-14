@@ -1,21 +1,21 @@
 @font-face {
-   font-family: 'Roboto'; 
-   src: url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+  font-family: "Roboto";
+  src: url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 body {
   background: linear-gradient(
     90deg,
-    rgb(28, 28, 134) 100%,
-    rgb(131, 151, 206) 100%
+    rgb(81, 92, 195) 100%,
+    rgb(142, 172, 219) 100%
   );
 }
 .todo-app {
@@ -31,14 +31,11 @@ body {
   padding-bottom: 32px;
 }
 
- 
-
 h1 {
-   
   margin: 32px 0;
   color: #fff;
   font-size: 24px;
-  font-family: 'Roboto'; 
+  font-family: "Roboto";
 }
 
 .complete {
@@ -153,4 +150,22 @@ h1 {
 
 .edit-icon {
   color: #fff;
+}
+
+.nav-bar {
+  background-color: #080808;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  text-decoration: none;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto";
 }

@@ -15,7 +15,7 @@
   right: 3%;
   font-size: 1.5rem;
   z-index: 1;
-  color: #fff;
+  /* color: #fff; */
   cursor: pointer;
 }
 
@@ -30,19 +30,19 @@
 }
 
 .form-img {
-  width: 80%;
-  height: 80%;
+  /* width: 80%; */
+  height: 600px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 30%;
+  transform: translate(-60%, -40%);
 }
 
 .form-img-2 {
-  width: 60%;
+  /* width: 60%; */
   height: 60%;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -119,11 +119,7 @@
   height: 50px;
   margin-top: 10px;
   border-radius: 2px;
-  background: linear-gradient(
-    90deg,
-    rgb(139, 5, 5) 0%,
-    rgb(161, 5, 5) 100%
-  );
+  background: linear-gradient(90deg, rgb(139, 5, 5) 0%, rgb(161, 5, 5) 100%);
   outline: none;
   border: none;
   color: #fff;
@@ -153,5 +149,3 @@
   color: #27cdff;
   font-weight: 600;
 }
-
-
