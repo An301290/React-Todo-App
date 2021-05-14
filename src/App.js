@@ -30,15 +30,9 @@ function App() {
         </nav>
 
          <Switch>
-          <Route path="/todo-list">
-            <TodoList />
-          </Route>
-          <Route path="/sign-up">
-          <Form />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
+          <Route path="/todo-list" component={TodoList} />
+          <Route path="/sign-up" component={Form} />
+          <Route path="/" component={Home} />
         </Switch>
       </div>
     </Router>

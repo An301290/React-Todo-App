@@ -1,6 +1,5 @@
 import React from "react";
 import useForm from "./UseForm";
-import UseForm from "./UseForm"; 
 import validate from "./validateInfo"; 
 import "./Form.css"; 
 
